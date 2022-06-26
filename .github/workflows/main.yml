@@ -4,7 +4,7 @@ name: Detele file from Databse
 on:
   # Triggers the workflow every day at 11:00 pm
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "50 23 * * *"
 
      # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
